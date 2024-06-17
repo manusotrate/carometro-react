@@ -1,0 +1,48 @@
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 600px;
+}
+
+.logincontainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 220px;
+  
+}
+
+.fundologin{
+    background-color: #bb0b0b6f;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.email,
+.senha{
+    width: 400px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #f4d6c858;
+    display: flex;
+}
+
+.botaoentrar{
+    border-radius: 10px;
+    width: 200px;
+    height: 35px;
+    background-color: #007bff;
+    margin-top: 15px;
+}
+
+.titulologin{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.linkcadastro{
+    font-size: 11px;
+}

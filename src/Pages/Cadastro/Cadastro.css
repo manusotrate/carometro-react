@@ -1,0 +1,48 @@
+
+.cadastrocontainer {
+    background-color: #bb0b0b6f; /*define a cor do container*/
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /*define a sombra do container*/
+    width: 700px;
+}
+
+.cadastramento {
+    display: flex;
+    flex-direction: column;
+}
+
+.labelscadastro {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /*espaçamento entre os labels*/
+
+}
+
+.labelscadastro label {
+    display: flex;
+    flex-direction: column; /*organiza em coluna*/
+    font-weight: bold; /*deixa a letra em negrito*/
+    font-size: 15px; /*tamanho da letra*/ 
+}
+
+.labelscadastro input {
+    width: 400px;
+    height: 35px;
+    border-radius: 8px;
+    margin-top: 5px;
+    border: none;
+}
+
+.botaocadastrar {
+    width: 100px;
+    height: 35px;
+    background-color: #007bff; /*define cor do botao*/
+    border: none; /*tira a borda do botao*/
+    border-radius: 10px; /*arredonda a borda*/
+    color: white; /*define cor da letra*/
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 140px;
+}

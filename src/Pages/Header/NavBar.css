@@ -1,0 +1,16 @@
+.navbar{
+    background-color: #bb0b0b;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.rotas{
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+}
+
+.logoSenai{
+    width: 100px;
+}
